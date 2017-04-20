@@ -1,0 +1,158 @@
+
+  
+    *{
+    	margin:0;
+    	padding:0;
+    }
+    img{
+        border:none;
+    }
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    html{
+    	font-size:100px;
+    }
+    
+    .swiper-container {
+        height: 100%;
+        position: relative;
+        
+    }
+    .swiper-slide:nth-child(1) {
+     	background:white;
+    }
+    .swiper-slide:nth-child(2) {
+     	background:#fe657a;
+    }
+    .swiper-slide:nth-child(3) {
+     	background:#09bee3;
+    }
+    .swiper-first{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50% ,-42%);
+        width:3.2rem;
+        height:3.98rem;
+    }
+    .logo{
+        position:absolute;
+        top: 4%; 
+        left: 2%;
+        width:1rem;
+        height:0.2rem;
+    }
+    img{
+        width:100%;
+       height:100%;
+       display: block;
+    }
+    .upButton{
+        width:0.2rem;
+        height:0.3rem;
+        position:absolute;
+        bottom:3%;
+        left:43%;
+        transform: translateX(-50%);
+        z-index: 9999
+    }
+    .s1_t{
+        position:absolute;
+        width:1.8rem;
+        height:0.7rem;
+    }
+    .swiper-imgs { 
+        width: 1.8rem; 
+        height: 0.7rem; 
+        position: absolute; 
+        left: 50%; 
+        top: 50%; 
+        transform: translate(-50%, -50%); 
+    }
+    .music-btn{
+       width: 0.4rem; 
+       height: 0.4rem; 
+       position: absolute; 
+       top: 2%; 
+       right: 2%; 
+       background-image: url(../images/musicBtn.png);
+        background-repeat: no-repeat; 
+        z-index: 99999; 
+        background-size: 100% 100%; 
+    }
+    .off{
+        background-image: url(../images/musicBtnOff.png);
+    }
+    .btmImg { 
+        width: 3.2rem; 
+        height: 0.9rem; 
+        position: absolute; 
+        bottom:0;
+        
+    }
+    .btmImg2 { 
+        width: 3.2rem; 
+        height: 0.9rem; 
+        position: absolute; 
+        bottom:0;
+
+    }
+    .swiper-second{
+        position:absolute;
+        top:2%;
+        left:10%;
+        
+        width:2.74rem;
+        height:4.47rem;
+    }
+    .start-lt{
+        position:absolute;
+        top:3%;
+        left:-10%;
+        width:2.69rem;
+        height:4.45rem;
+    }
+    .dengLight{
+        width:3.2rem;
+        height:4.5rem;
+        position:absolute;
+        left:17%;
+        top:9%;
+    }
+    .second-rt{
+        
+    }
+    .me{
+        width:0.34rem;
+        height:0.34rem;
+        position:absolute;
+        left:75%;
+        top:65%;
+    }
+    .sale{
+        width:0.22rem;
+        height:1.02rem;
+        position:absolute;
+        left:74%;
+        top:66%;
+    }
+    .self{
+        width:0.57rem;
+        height:1.69rem;
+        position:absolute;
+        left:75%;
+        top:67%;
+    }
+    .second-lt,.lt { 
+        width:0.61rem;
+        height:1.23rem;
+    }
+     .lt{ 
+        position: absolute; 
+        left: 3%; 
+        top: 2%; 
+    }
+    
+    
